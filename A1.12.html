@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Login Form with Validation </title>
+    </head>
+    <body>
+        
+       <center>
+         <h1>Task 12</h1>
+        
+        <style>
+            .box{
+                background-color: rgba(220, 220, 220, 0.272);
+                height: 350px;
+                width: 270px;
+                border-radius: 10px;
+                
+            }
+            
+        </style>
+        <div class="box">
+            <h3> Login Form with Validation </h3>
+            <form>
+            <label for="email" >EMAIL :</label><br>
+            <input type="email" required="@" minlength="100" placeholder="Enter your Email"><br><br>
+            <label for="password" >PASSWORD :</label><br>
+            <input type="password" required="symbols!#&*" minlength="8" placeholder="Enter your password">
+            <div class="button"><br><br>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+       </center>
+        </div>
+    </body>
+</html>
